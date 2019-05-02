@@ -16,7 +16,7 @@ public class HomeController {
    
    @GetMapping("/")
    public String home(Model model) {
-      model.addAttribute("test", "인덕");
+      model.addAttribute("test", "인덕 ");
       model.addAttribute("egy", "유응구");
       return "index";
    }
